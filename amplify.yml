@@ -6,7 +6,6 @@ frontend:
         - npm install -g @angular/cli
         - npm ci
         - npm run build
-        - cd server
         - npm run start
   artifacts:
     baseDirectory: dist/test-angular-node/browser
